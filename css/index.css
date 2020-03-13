@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap');
+
+body {
+  font-family: 'Be Vietnam', sans-serif;
+  font-size: 1em;
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0%;
+  
+
+}
+
+h1 {
+  font-family: 'Be Vietnam', sans-serif;
+  font-size: 1.5em;
+  color:grey;
+  
+  width: 100%;
+  
+
+}
+
+
+h2 {
+  font-family: 'Be Vietnam', sans-serif;
+  width: 100%;
+  text-align: left;
+  padding: 0.5em;
+  font-size: 1.5em;
+}
+
+p {
+  text-align: center;
+  padding-top: 4em;
+  font-size: 5em;
+  color: gray;
+  background-color: #EBEEAF;
+}
+
+.prog {
+  color: black;
+  background-color: #EBEEAF;
+  font-size: 3em;
+  padding: 2em;
+}
+
+.productimg {
+  display: inline;
+  text-align: center;
+  width: 100%;
+}
+
+.applybtn {
+  background-color: red;
+  padding: 1em;
+  text-align: center;
+  display: block;
+  margin: 1em;
+  
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+  max-width: 100em;
+  margin: 0%;
+  background-color: #EBEEAF;
+  
+}
+
+
+.b1 {
+  background-color: gray;
+  padding: 1.5em;
+}
+
+.b1 a {
+  color:white;
+}
+
+.b2 {
+  background-color: gray;
+  padding: 1.5em;
+
+}
+
+.centerthis {
+  text-align: center;
+}
+
+.logo {
+  background-color: #0000CD;
+  padding: 1em;
+  padding-right: 100%;
+  max-width: 40%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color:#EBEEAF;
+}
+
+.schoolimg {
+  display: inline;
+  text-align: center;
+
+  height: 300px;
+
+  
+}
+
+.footlogo {
+  width: 5em;
+  background-color: gray;
+}
+
+.foot {
+
+  padding: 1em;
+} 
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+.main {
+  margin-top: 30px; 
+}
+
+
+
+video {
+  position: fixed; 
+  left: 50%;
+  z-index:-1000;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+
+
+
+
+
+  .icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 8px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 700px) {
+
+  .grid {
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    max-width: 100em;
+    margin: 0%;
+    
+  }
+
+  .schoolimg {
+    width: 80%;
+  }
+
+  .foot {
+    background-color:gray;
+    padding: 1.5em;
+    text-align: center;
+  } 
+
+}
+
+@media screen and (min-width: 1000px) {
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.schoolimg {
+  width: 50%;
+  
+}
+.foot {
+  background-color: gray;
+  padding: 2em;
+} 
+
+}
+
